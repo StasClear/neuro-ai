@@ -1,4 +1,4 @@
-# SEOline VK posting: hashtags from seo_keys
+# neuro-ai.ru site patches: SEOline VK hashtags
 
 ## Summary
 
@@ -18,10 +18,32 @@ becomes:
 #Нейросети #ИскусственныйИнтеллект #AIИнструменты
 ```
 
-## Changed File
+## Repository Layout
+
+This repository stores only changed site files, preserving paths from the site web root.
+
+For the `neuro-ai.ru` site, changed files are placed under:
+
+```text
+neuro-ai.ru/
+```
+
+That means this file:
+
+```text
+neuro-ai.ru/system/controllers/seoline/frontend.php
+```
+
+maps to this server path:
 
 ```text
 system/controllers/seoline/frontend.php
+```
+
+## Changed File
+
+```text
+neuro-ai.ru/system/controllers/seoline/frontend.php
 ```
 
 ## Implementation Notes
@@ -45,4 +67,3 @@ php -l frontend.php
 ```
 
 on PHP 8.3 and PHP 7.2.
-
