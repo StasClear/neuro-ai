@@ -909,7 +909,7 @@ class seoline extends cmsFrontend {
 
 		$title = $this->cleanTelegramText($item['title'], 120);
 		$text  = $this->cleanTelegramText($item[$text_field], 1000);
-		$message = $title . "\n\n" . $text . "\n 🔗 Читать полностью: " . $url;
+		$message = $title . "\n\n" . $text . "\n\n🔗 Читать полностью: " . $url;
 		$hashtags = $this->buildSeoKeyHashtags($item['seo_keys'] ?? '');
 
 		if ($hashtags) {
