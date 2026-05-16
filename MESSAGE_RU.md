@@ -27,7 +27,7 @@
 В репозитории приложен изменённый файл с сохранением структуры от корня сайта:
 
 ```text
-neuro-ai.ru/system/controllers/seoline/frontend.php
+neuro-ai/system/controllers/seoline/frontend.php
 ```
 
 Изменение находится в методе `postToVK()`: перед отправкой через `wall()->post()` к тексту поста добавляется строка хештегов, сформированная из `seo_keys`.

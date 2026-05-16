@@ -1,8 +1,10 @@
-# neuro-ai.ru site patches: SEOline VK hashtags
+# neuro-ai site patches
 
 ## Summary
 
-This proposal adds automatic VK hashtags for SEOline VK autoposting.
+This repository stores changed files for the `neuro-ai` site with their paths preserved from the site web root.
+
+Current change: automatic VK hashtags for SEOline VK autoposting.
 
 When SEOline posts a content item to VK, it now reads the item's `seo_keys` field, treats commas as keyword separators, converts each keyword phrase to a VK hashtag, and appends the hashtags to the post text.
 
@@ -22,16 +24,16 @@ becomes:
 
 This repository stores only changed site files, preserving paths from the site web root.
 
-For the `neuro-ai.ru` site, changed files are placed under:
+For the `neuro-ai` site, changed files are placed under:
 
 ```text
-neuro-ai.ru/
+neuro-ai/
 ```
 
 That means this file:
 
 ```text
-neuro-ai.ru/system/controllers/seoline/frontend.php
+neuro-ai/system/controllers/seoline/frontend.php
 ```
 
 maps to this server path:
@@ -43,7 +45,7 @@ system/controllers/seoline/frontend.php
 ## Changed File
 
 ```text
-neuro-ai.ru/system/controllers/seoline/frontend.php
+neuro-ai/system/controllers/seoline/frontend.php
 ```
 
 ## Implementation Notes
