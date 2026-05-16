@@ -1,0 +1,5 @@
+
+.env
+*.codex_bak_*
+*.codex_tmp_*
+_tmp*/
